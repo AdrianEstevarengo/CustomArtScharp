@@ -1,0 +1,6 @@
+@CustomArtScharp.Server_HostAddress = http://localhost:5166
+
+GET {{CustomArtScharp.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

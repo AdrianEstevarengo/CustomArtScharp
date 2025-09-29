@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "customartscharp.client", "customartscharp.client\customartscharp.client.esproj", "{96C3CB76-E777-68E6-51D5-3C9736DA44C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomArtScharp.Server", "CustomArtScharp.Server\CustomArtScharp.Server.csproj", "{B8D8C2EF-7213-4B67-A318-F14E72D28C26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96C3CB76-E777-68E6-51D5-3C9736DA44C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96C3CB76-E777-68E6-51D5-3C9736DA44C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96C3CB76-E777-68E6-51D5-3C9736DA44C7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{96C3CB76-E777-68E6-51D5-3C9736DA44C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96C3CB76-E777-68E6-51D5-3C9736DA44C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96C3CB76-E777-68E6-51D5-3C9736DA44C7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B8D8C2EF-7213-4B67-A318-F14E72D28C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D8C2EF-7213-4B67-A318-F14E72D28C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D8C2EF-7213-4B67-A318-F14E72D28C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D8C2EF-7213-4B67-A318-F14E72D28C26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {633B7BE7-81C2-48E4-BF4A-84832F987BC5}
+	EndGlobalSection
+EndGlobal
