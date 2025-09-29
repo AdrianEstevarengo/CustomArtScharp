@@ -22,3 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+/CustomArtCreator/.vs/CustomArtCreator/FileContentIndex
+/.vs/custom-art-creator/FileContentIndex
