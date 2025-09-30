@@ -1,5 +1,5 @@
-using CustomArtScharp.Server.Models;
 using CustomArtScharp.Server.DTOs;
+using CustomArtScharp.Server.Entities;
 
 namespace CustomArtScharp.Server.Factories
 {
