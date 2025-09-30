@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
+import { LoginDropdown } from './Auth/LoginDropdown';
 
 export default function Header() {
   return (
@@ -24,12 +25,9 @@ export default function Header() {
           </a>
         </nav>
         
-        <div className="flex items-center space-x-4">
-          <Link to="/customizar">
-            <Button className="btn-cta">
-              Criar Quadro
-            </Button>
-          </Link>
+       <div className="container mx-auto flex h-16 items-center justify-between px-4">
+          <h1 className="text-2xl font-bold">Custom Art Creator</h1>
+          <LoginDropdown />
         </div>
       </div>
     </header>

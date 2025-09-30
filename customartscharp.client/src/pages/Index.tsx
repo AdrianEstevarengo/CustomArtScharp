@@ -6,12 +6,14 @@ import heroImage from '@/assets/hero-gallery.jpg';
 import abstractArt from '@/assets/art-abstract-1.jpg';
 import landscapeArt from '@/assets/art-landscape-1.jpg';
 import minimalArt from '@/assets/art-minimal-1.jpg';
+import { LoginDropdown } from "@/components/Auth/LoginDropdown";
+
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      
+
       {/* Hero Section */}
       <section className="hero-gradient relative overflow-hidden">
         <div className="container mx-auto px-4 py-20 lg:py-32">
@@ -21,8 +23,8 @@ const Index = () => {
                 Transforme suas <span className="text-primary">memórias</span> em obras de arte
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Crie quadros personalizados com preview 3D em tempo real. 
-                Escolha molduras, materiais e acabamentos premium para transformar 
+                Crie quadros personalizados com preview 3D em tempo real.
+                Escolha molduras, materiais e acabamentos premium para transformar
                 qualquer imagem em uma peça única para seu espaço.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -35,6 +37,8 @@ const Index = () => {
                   Ver galeria
                 </Button>
               </div>
+              <LoginDropdown />
+
               <div className="flex items-center space-x-8 text-sm text-muted-foreground">
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
@@ -76,7 +80,7 @@ const Index = () => {
               Descubra estilos únicos ou faça upload da sua própria imagem
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="group cursor-pointer">
               <div className="relative overflow-hidden rounded-xl shadow-soft group-hover:shadow-elegant transition-all duration-300">
@@ -92,7 +96,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="group cursor-pointer">
               <div className="relative overflow-hidden rounded-xl shadow-soft group-hover:shadow-elegant transition-all duration-300">
                 <img
@@ -107,7 +111,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="group cursor-pointer">
               <div className="relative overflow-hidden rounded-xl shadow-soft group-hover:shadow-elegant transition-all duration-300">
                 <img
@@ -123,7 +127,7 @@ const Index = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="text-center mt-12">
             <Link to="/customizar">
               <Button className="btn-cta text-lg px-8 py-4">
@@ -145,7 +149,7 @@ const Index = () => {
               Três passos simples para criar seu quadro personalizado
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center group">
               <div className="w-20 h-20 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
@@ -156,7 +160,7 @@ const Index = () => {
                 Faça upload da sua imagem ou escolha da nossa biblioteca curada de artes exclusivas
               </p>
             </div>
-            
+
             <div className="text-center group">
               <div className="w-20 h-20 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
                 2
@@ -166,7 +170,7 @@ const Index = () => {
                 Configure moldura, passe-partout, tamanho e material com preview 3D em tempo real
               </p>
             </div>
-            
+
             <div className="text-center group">
               <div className="w-20 h-20 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
                 3
@@ -188,14 +192,14 @@ const Index = () => {
               O que nossos <span className="text-primary">clientes</span> dizem
             </h2>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-card p-8 rounded-xl shadow-soft">
               <div className="mb-6">
                 <div className="flex text-primary text-xl">★★★★★</div>
               </div>
               <p className="text-muted-foreground mb-6 italic">
-                "O preview 3D me permitiu ver exatamente como ficaria na parede. 
+                "O preview 3D me permitiu ver exatamente como ficaria na parede.
                 A qualidade da impressão e da moldura superou minhas expectativas!"
               </p>
               <div>
@@ -203,13 +207,13 @@ const Index = () => {
                 <p className="text-sm text-muted-foreground">Designer de Interiores</p>
               </div>
             </div>
-            
+
             <div className="bg-card p-8 rounded-xl shadow-soft">
               <div className="mb-6">
                 <div className="flex text-primary text-xl">★★★★★</div>
               </div>
               <p className="text-muted-foreground mb-6 italic">
-                "Processo super fácil e resultado profissional. 
+                "Processo super fácil e resultado profissional.
                 Agora todas as fotos da família viraram obras de arte em casa."
               </p>
               <div>
@@ -217,13 +221,13 @@ const Index = () => {
                 <p className="text-sm text-muted-foreground">Arquiteto</p>
               </div>
             </div>
-            
+
             <div className="bg-card p-8 rounded-xl shadow-soft">
               <div className="mb-6">
                 <div className="flex text-primary text-xl">★★★★★</div>
               </div>
               <p className="text-muted-foreground mb-6 italic">
-                "Atendimento excepcional e entrega rápida. 
+                "Atendimento excepcional e entrega rápida.
                 O material canvas ficou perfeito para o meu estúdio."
               </p>
               <div>
