@@ -33,9 +33,9 @@ const Index = () => {
                     Personalizar meu quadro
                   </Button>
                 </Link>
-                <Button variant="outline" className="text-lg px-8 py-4 border-2">
+                <Link to="/Galeria"  className="text-lg px-8 py-4 border-2">
                   Ver galeria
-                </Button>
+                </Link>
               </div>
               <LoginDropdown />
 
