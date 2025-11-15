@@ -9,6 +9,6 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="@tanstack/react-query" Version="latest" />
+    <PackageReference Include="@tanstack/react-query" Version="5.90.2" />
   </ItemGroup>
 </Project>
